@@ -69,3 +69,12 @@ tbody > tr {
 .result{
     margin-top:20px;
 }
+
+.name_position {
+  display: inline-block;
+  margin-left: 37%;
+}
+.pNum_position {
+  display: inline-block;
+  margin-left: 42%;
+}
