@@ -1,5 +1,6 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: slateGrey;
 }
 
 .thumb {
@@ -14,7 +15,32 @@ p {
     padding-top: 10px;
 }
 
+.navbar-brand {
+    font-family: 'Courgette', cursive;
+}
+
+.jumbotron_container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.jumboHeader {
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+}
+
+.jumboContent {
+    font-family: 'Courgette', cursive;
+    font-size: 75px;
+}
+
+.disclaimer {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 2px;
+}
+
 .jumbotron {
+    background-color: gainsboro;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -28,7 +54,7 @@ p {
 }
 
 #form1 {
-    padding-top: 55px;
+    padding-top: 100px;
 }
 
 
@@ -53,6 +79,10 @@ body {
     white-space: nowrap;
 }
 
+.thumbnail {
+    radius: 25%;
+    background-color: Gainsboro;
+}
 .thumbnail img {
     width: 100%;
 }
@@ -77,4 +107,9 @@ tbody > tr {
 .pNum_position {
   display: inline-block;
   margin-left: 42%;
+}
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding-bottom:80px;
 }
