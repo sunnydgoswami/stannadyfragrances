@@ -53,8 +53,12 @@ p {
     padding-top: 20px;
 }
 
-#form1 {
-    padding-top: 100px;
+#form3 {
+    padding-top: 50px;
+}
+
+strong {
+  color: black;
 }
 
 
@@ -108,8 +112,14 @@ tbody > tr {
   display: inline-block;
   margin-left: 42%;
 }
+
 #contact{
 	background:#333333;
 	color:#f4f4f4;
 	padding-bottom:80px;
+}
+
+a:hover,a:focus{
+	text-decoration:none;
+	color:#26a5d3;
 }

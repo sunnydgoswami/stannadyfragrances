@@ -22,6 +22,7 @@
     <link href="css/thumbnail-gallery.css" rel="stylesheet" type="text/css">
     <link href="css/structure.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
+    <link href="css/theme/css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -61,7 +62,7 @@
                         <a href="#women">Women's</a>
                     </li>
                     <li>
-                        <a href="#form1">Contact</a>
+                        <a href="#form3">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -97,10 +98,10 @@
             <div ng-repeat="detail in details">
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                     <div class="thumbnail">
+                      <a data-toggle="modal" data-target="#dialogTestDialogMale{{$index}}">
                         <img class="img-responsive" src="assets/pexels-photo-84578.jpeg" alt="generic fragrance oil bottle image">
-                        <a data-toggle="modal" data-target="#dialogTestDialogMale{{$index}}">
                             <center><strong><p>{{ detail.name }}</strong></p></center>
-                        </a>
+                      </a>
                     </div>
                     <!-- Modal -->
                           <div class="modal" id="dialogTestDialogMale{{$index}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -168,10 +169,10 @@
             <div ng-repeat="name in names">
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                     <div class="thumbnail">
+                      <a data-toggle="modal" data-target="#dialogTestDialog{{$index}}">
                         <img class="img-responsive" src="assets/scent-sticks-fragrance-aromatic-161570.jpeg" alt="generic fragrance oil bottle image">
-                        <a data-toggle="modal" data-target="#dialogTestDialog{{$index}}">
                             <center><p><strong>{{ name.name }}</strong></p></center>
-                        </a>
+                      </a>
                     </div>
                     <!-- Modal -->
                           <div class="modal" id="dialogTestDialog{{$index}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -233,73 +234,77 @@
         <hr>
 
         <!-- contact me form -->
-      <section id="contact" class="content-section text-center">
-        <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-              action="https://stannadyfragrances.wufoo.com/forms/z1f0irvj0o0gogo/#public">
+        <div id="contact container" class="ltr">
+            <form id="form3" name="form3" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+                  action="https://stannadyfragrances.wufoo.com/forms/q74dfr81dzw6dx/#public">
 
-              <header id="header" class="info">
-                  <h2>CONTACT US!</h2>
-                  <div>If you have any special request, would like to reach out to us about bulk ordering, or you have any other issues/questions,
-                    please contact us and we will get back to you as soon as possible.</div>
-              </header>
-              <center><ul>
-                  <li id="foli1" class="notranslate">
-                      <label class="desc" id="title1" for="Field1">Name</label>
-                      <span class="name_position">
-                          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1" placeholder=""/>
-                          <label for="Field1">First</label>
-                      </span>
-                      <span>
-                          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" placeholder="" />
-                          <label for="Field2">Last</label>
-                      </span>
-                      <p class="instruct" id="instruct1"><small>Enter First and Last Name</small></p>
-                  </li>
-                  <li id="foli18" class="phone notranslate">
-                      <label class="desc" id="title18" for="Field18">Phone Number</label>
-                      <span class="pNum_position">
-                          <input id="Field18" name="Field18" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="3" placeholder=""       />
-                          <label for="Field18">###</label>
-                      </span>
-                      <span class="symbol">-</span>
-                      <span>
-                          <input id="Field18-1" name="Field18-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4" placeholder="" />
-                          <label for="Field18-1">###</label>
-                      </span>
-                      <span class="symbol">-</span>
-                      <span>
-                          <input id="Field18-2" name="Field18-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="5" placeholder="" />
-                          <label for="Field18-2">####</label>
-                      </span>
-                      <p class="instruct" id="instruct18"><small>Enter Contact Number</small></p>
-                  </li>
-                  <li id="foli15" class="notranslate      ">
-                      <label class="desc" id="title15" for="Field15">Email</label>
-                      <div>
-                          <input id="Field15" name="Field15" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="6" placeholder="" />
-                      </div>
-                      <p class="instruct" id="instruct15"><small>Enter Contact Email</small></p>
-                  </li>
-                  <li class="buttons ">
-                      <div>
-                          <input id="saveForm" name="saveForm" class="btTxt submit" target="_blank" type="submit" value="Submit"/>
-                          <a href="https://master.wufoo.com/forms/m7p0x3/def/field1=stannadyfragrances.wufoo.com/forms/contact-us/" target="_blank"
-                              style="font-size:85% !important;visibility:visible !important;display:inline !important;
-                              background:none !important;border:none !important;color:blue !important;
-                              text-indent:0 !important;text-decoration:underline !important;position:static !important;
-                              margin:0 !important;padding:0 !important;overflow:none !important
-                              width:auto !important;height:auto !important;">Report Abuse</a>
-                      </div>
-                  </li>
+                  <header id="header" class="info">
+                      <h2><div style="text-align: center;"><strong>Contact Us!</strong></div></h2>
+                      <div><strong>If you have any special request, would like to reach out to us about bulk ordering, or you have any other issues/questions, please contact us and we will get back to you as soon as possible.</strong></div>
+                  </header>
+                  <center><ul>
+                      <li id="foli11" class="notranslate      ">
+                          <label class="desc" id="title11" for="Field11">
+                              <div style="text-align: center;"><strong>Email</div></strong>
+                          </label>
+                          <div>
+                            <input id="Field11" name="Field11" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="1" placeholder="Please enter your valid e-mail here..." />
+                          </div>
+                      </li>
+                      <li id="foli13" class="notranslate      ">
+                          <label class="desc " id="title13" for="Field13">
+                              <div style="text-align: center;"><strong>Phone Number</strong></div>
+                          </label>
+                          <div>
+                              <input id="Field13" name="Field13" type="text" class="field text nospin large"  value="" tabindex="2" onkeyup="" placeholder="FORMAT: XXXXXXXXXX"/>
+                          </div>
+                      </li>
+                      <li id="foli1" class="notranslate      ">
+                          <label class="desc" id="title1" for="Field1">
+                              <div style="text-align: center;"><strong>Subject</strong></div>
+                          </label>
+                          <div>
+                              <input id="Field1" name="Field1" type="text" class="field text large" value="" maxlength="255" tabindex="3" onkeyup="" placeholder="What are you messaging us about today?" />
+                          </div>
+                      </li>
+                      <li id="foli10" class="notranslate">
+                          <label class="desc" id="title10" for="Field10">
+                              <div style="text-align: center;"><strong>Message</strong></div>
+                          </label>
 
-                  <li class="hide">
-                      <label for="comment">Do Not Fill This Out</label>
-                      <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-                      <input type="hidden" id="idstamp" name="idstamp" value="sIjYMbDCnDiKPRT3eQckG0d1IOyEYzskBebVl0b4Ut0=" />
-                  </li>
-              </ul></center>
-        </form>
-      </section>
+                          <div>
+                              <textarea id="Field10"
+                                  name="Field10"
+                                  class="field textarea small"
+                                  spellcheck="true"
+                                  rows="10" cols="50"
+                                  tabindex="4"
+                                  onkeyup=""
+                                  placeholder="Enter message here...">
+                              </textarea>
+                          </div>
+                      </li>
+                      <li class="buttons">
+                          <div>
+                              <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit"/>
+                              <a href="https://master.wufoo.com/forms/m7p0x3/def/field1=stannadyfragrances.wufoo.com/forms/contact-us-q74dfr81dzw6dx/" target="_blank"
+                                 style="font-size:85% !important;visibility:visible !important;display:inline !important;
+                                        background:none !important;border:none !important;color:blue !important;
+                                        text-indent:0 !important;text-decoration:underline !important;position:static !important;
+                                        margin:0 !important;padding:0 !important;overflow:none !important
+                                        width:auto !important;height:auto !important;">Report Abuse
+                              </a>
+                          </div>
+                      </li>
+
+                      <li class="hide">
+                          <label for="comment">Do Not Fill This Out</label>
+                          <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                          <input type="hidden" id="idstamp" name="idstamp" value="HYV8p86pSfOYIOhy+pSerwZ5FDSNYDtZXpxU8ipjCSM=" />
+                      </li>
+                  </ul></center>
+              </form>
+          </div><!--container-->
 
         <!-- Footer -->
         <footer>
@@ -311,6 +316,7 @@
         </footer>
 
     </div>
+
     <!-- /.container -->
 
     <!-- jQuery -->
