@@ -62,13 +62,6 @@ strong {
 }
 
 
-
-/*!
- * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -122,4 +115,30 @@ tbody > tr {
 a:hover,a:focus{
 	text-decoration:none;
 	color:#26a5d3;
+}
+
+.modal-header {
+    background-color: lightBlue;
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+}
+
+#modal-header_women {
+    background-color: lightCoral;
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+}
+
+.modal-body {
+    background-color: lightYellow;
+}
+
+.h6 {
+    padding-top: 10px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+}
+
+.img-thumbnail {
+      margin-top: 10px;
 }
