@@ -15,6 +15,21 @@ p {
     padding-top: 10px;
 }
 
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 500px;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../assets/facebook_cover_stanFragrances.png") no-repeat bottom center;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .navbar-brand {
     font-family: 'Courgette', cursive;
 }
@@ -22,6 +37,13 @@ p {
 .page-header {
     font-family: 'Dancing Script', cursive;
     font-size: 55px;
+}
+
+
+.jumbotron {
+  background-image: url('../assets/facebook_cover_stanFragrances.png'): gainsboro;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .jumbotron_container {
@@ -44,11 +66,6 @@ p {
     font-size: 2px;
 }
 
-.jumbotron {
-    background-color: gainsboro;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 #men {
     padding-top: 20px;
